@@ -7,6 +7,26 @@
 }
 .btnsrch{
     font-weight: bold;
+
+}
+
+.btn-outline-success {
+    border-color: #F7931D !important;
+}
+
+.btn-outline-success:hover {
+    border-color: #F7931D !important;
+    background-color: #F7931D  !important;
+    color: white !important;
+}
+.btn-outline-success {
+    color: #F7931D !important;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color : #585C5D !important;
+
 }
 /*header*/
 
@@ -15,11 +35,13 @@
 /*footer*/
 
 
-body {
+html,body {
     font-family: 'Alegreya Sans', sans-serif;
   /*  padding: 15px 0;*/
 
    /* overflow-y: scroll;*/
+
+   /* overflow: visible;*/
 }
 
 ul, ol {
@@ -150,6 +172,13 @@ li {
     content: "";
 }
 
+.footer2 {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;   /* Height of the footer */
+}
+
 @media (max-width: 550px) {
     .footer2 .footer-bottom .pull-left,
     .footer2 .footer-bottom .pull-right {
@@ -172,8 +201,34 @@ li {
 
 /*footer*/
 
+/*modal*/
+
+
+
+
+
+/*modal*/
+
+
 /*search*/
+#imaginary_container{
+    margin-top:20%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+    border-right:0;
+    box-shadow:0 0 0;
+    border-color:#ccc;
+}
+.stylish-input-group #btnSrch{
+    border:0;
+    background:transparent;
+}
+.searchbox{
 
-
+    overflow: auto;
+}
 
 /*search*/
